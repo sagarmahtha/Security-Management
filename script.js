@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/library/d/1BO82y70Bt9uN8p837uvyOW5O9R6tz2blngJ0nP2r9nOxvT1ttrecBH-6/1";
+const scriptURL = "https://script.google.com/macros/s/AKfycbxrpKSu9iCgYyFRkZdKL1-kP1jvIar8Azy3tpyqxgFrjRtgxz05zZ3TtDaslYSrLplkNg/exec";
 
 const form = document.getElementById("guardForm");
 
