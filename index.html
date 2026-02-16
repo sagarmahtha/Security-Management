@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guard Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+  <form id="guardForm">
+    <h1>Guard Registration</h1>
+
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="srfid">SRF ID</label>
+      <input type="text" id="srfid" required>
+    </div>
+
+    <div class="form-group">
+      <label for="nxid">NX ID</label>
+      <input type="text" id="nxid" required>
+    </div>
+
+    <div class="form-group">
+      <label for="rank">Rank</label>
+      <select id="rank" required>
+        <option value="">Select Rank</option>
+        <option>Security Supervisor</option>
+        <option>Security Guard</option>
+        <option>Lady Security Guard</option>
+        <option>CCTV Operator</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="mobile">Mobile Number</label>
+      <input type="tel" id="mobile" required>
+    </div>
+
+    <div class="form-group">
+      <label for="whatsapp">WhatsApp Number</label>
+      <input type="tel" id="whatsapp" required>
+    </div>
+
+<div class="form-group">
+  <label for="dob">Date of Birth</label>
+  <input type="date" id="dob" required>
+  <small class="hint">Format: DD/MM/YYYY</small>
+</div>
+    <div class="form-group">
+      <label for="email">Email ID</label>
+      <input type="email" id="email" required>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+</body>
+</html>
